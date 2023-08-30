@@ -1,0 +1,136 @@
+
+
+/* -------- General CSS --------- */
+
+h1 {
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+    font-weight: 500;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Bellefair', serif;
+    font-size: 100px;
+    font-weight: 300;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    font-weight: 200;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    font-weight: 100;
+    margin: 0;
+}
+
+h5 {
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    letter-spacing: 4.75px;
+    font-weight: 100;
+    margin: 0;
+}
+
+p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+    line-height: 32px;
+    margin: 0;
+    color: #D0D6F9;
+}
+
+span {
+    opacity: 60%;
+}
+
+.page-subtitle {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    margin: 0 0 0 10%;
+}
+
+
+
+/* --------  NAVBAR --------- */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.logo {
+    margin: 2%;
+    height: 70px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 1% 2% 2% 2%;
+    list-style: none;
+    height: 70px;
+    align-items: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+.background-navbar {
+    z-index: -2;
+    position: absolute;
+    left: 45%;
+    margin-top: 2px;
+    width: 55%;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.042);
+    backdrop-filter: blur(1rem);
+}
+
+li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-btn {
+    text-decoration: none;
+    color: white;
+    opacity: 60%;
+    height: 100%;
+    line-height: 70px;
+}
+
+.menu-btn:hover {
+    opacity: 90%;
+    border-bottom: 2px white solid;
+}
+
+.divider {
+    z-index: 2;
+    position: absolute;
+    left: 8%;
+    margin-top: 50px;
+    width: 35%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.297);
+    backdrop-filter: blur(1rem);
+}
+
+.selected {
+    opacity: 100%;
+    border-bottom: 2px white solid;
+}
+
+
