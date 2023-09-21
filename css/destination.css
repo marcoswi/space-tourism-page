@@ -7,6 +7,11 @@ body {
 
 /* <!-- Destination page Main Section --> */
 
+.page-subtitle {
+    margin-top:25px;
+    margin-bottom:25px;
+}  
+
 .destination-main {
     display: flex;
     justify-content: space-between;
@@ -38,6 +43,7 @@ body {
     padding: 0;
     margin: 0 0 10%;
     color: rgba(255, 255, 255, 0.404);
+    list-style-type: none;
 }
 
 .option {
@@ -81,4 +87,70 @@ body {
     font-size: 50px;
     letter-spacing: 1.5px;
     margin-top: 8%;
+}
+
+@media (max-width: 1100px) {
+
+    body {
+        background-image: url(../assets/destination/background-destination-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    main {
+        text-align: center;
+    }
+    .page-subtitle {
+        margin: 5% 0;
+    }
+
+    .destination-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .destination-img-section {
+        width: 100%;
+    }
+
+    #destination-img {
+        margin: 0;
+    }
+
+    .destination-main-text {
+        width: 100%;
+    }
+
+    .destination-options {
+        width: 75%;
+        justify-content: space-around;
+        align-items: center;
+        margin: 5% auto;
+    }
+
+    #destination-description {
+        width: 80%;
+        margin: 3% 10%;
+    }
+
+    .destination-data {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .destination-data-item {
+        margin: 10px 0;
+    }
+
+    .data-number {
+        margin: 3% 0;
+    }
+
+
+
 }

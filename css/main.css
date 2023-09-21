@@ -1,5 +1,6 @@
 @import url(styles.css);
 
+
 body {
     background-image: url(../assets/home/background-home-desktop.jpg);
     color: white;
@@ -19,6 +20,13 @@ main {
     width: 50%;
 }
 
+.text-desktop {
+    margin-left: 50px;
+}
+
+.text-title {
+    margin: 5% 0;
+}
 
 /* -------- Main section: Right side --------- */
 
@@ -27,14 +35,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.text-desktop {
-    margin-left: 50px;
-}
-
-.text-title {
-    margin: 5% 0;
 }
 
 .btn-explore{
@@ -52,5 +52,44 @@ main {
 .btn-explore:hover {
     transition: 0.5s;
     box-shadow: 0 0 0 2em rgba(255, 255, 255, 0.152);
+}
+
+
+
+/* ------- MEDIA QUERIES ---------- */
+
+@media (max-width: 1100px) {
+
+    body {
+        background-image: url(../assets/home/background-home-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .container-text-desktop {
+        width: 100%;
+    }
+
+    .text-desktop {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 50px;
+    }
+
+    .container-btn-explore{
+        width: 100%;
+        margin-bottom: 40px;
+
+    }
+
+    .btn-explore {
+        margin-top: 30%;
+    }
 }
 

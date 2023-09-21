@@ -17,41 +17,46 @@
 <body>
     <header>
         <nav class="navbar">
-            <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
-            <div class="divider"></div>
-            <ul class="menu">
-                <div class="background-navbar"></div>
-                <li><a class="menu-btn" href="index.html"><span class="span">00</span>  HOME</a></li>
-                <li><a class="menu-btn" href="destination.html"><span class="span">01</span>  DESTINATION</a></li>
-                <li><a class="menu-btn" href="crew.html"><span class="span">02</span>  CREW</a></li>
-                <li><a class="menu-btn selected" href="technology.html"><span class="span">03</span>  TECHNOLOGY</a></li>
-            </ul>
+            <div class="logo-container">     
+                <img class="logo" src="assets/shared/logo.svg" alt="logo">
+            </div>
+            <div class="divider-container">
+                <div class="divider"></div>
+            </div>
+            <div class="background-navbar">
+                <div class="menu-icon" id="menu-icon">&#9776;</div>
+                <ul class="menu" id="menu">
+                    <li><a class="menu-btn" href="index.html"><span class="span">00</span>  HOME</a></li>
+                        <li><a class="menu-btn" href="destination.html"><span class="span">01</span>  DESTINATION</a></li>
+                        <li><a class="menu-btn selected" href="crew.html"><span class="span">02</span>  CREW</a></li>
+                        <li><a class="menu-btn" href="technology.html"><span class="span">03</span>  TECHNOLOGY</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-<!-- Destination page Main Section -->
+<!-- Technology page Main Section -->
+    <main>
+        <h5 class="page-subtitle"><span>03</span> SPACE LAUNCH 101</h5> 
 
-<h5 class="page-subtitle"><span>03</span> SPACE LAUNCH 101</h5> 
-
-<div class="tech-main-section">
-    <div class="tech-options-section">
-        <button id="space-capsule" class="tech-option selected-tech-option">1</button>
-        <button id="spaceport" class="tech-option">2</button>
-        <button id="vehicle" class="tech-option">3</button>
-    </div>
-    <div class="tech-text-section">
-        <h4>THE TERMINOLOGY...</h4>
-        <h3 id="tech-title" class="tech-title">SPACE CAPSULE</h3>
-        <p id="tech-description"> A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
-        capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
-        you'll spend your time during the flight. It includes a space gym, cinema, 
-        and plenty of other activities to keep you entertained. </p>
-    </div>
-    <div class="tech-img-section">
-        <img id="tech-img" class="tech-img" src="assets/technology/image-space-capsule-portrait.jpg" alt="rocket launching">
-    </div>
-</div>
-
+        <div class="tech-main-section">
+                <div class="tech-options-section">
+                    <button id="space-capsule" class="tech-option selected-tech-option">1</button>
+                    <button id="spaceport" class="tech-option">2</button>
+                    <button id="launch-vehicle" class="tech-option">3</button>
+                </div>
+                <div class="tech-text-section">
+                        <h4>THE TERMINOLOGY...</h4>
+                        <h3 id="tech-title" class="tech-title">SPACE CAPSULE</h3>
+                        <p id="tech-description"> A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
+                        capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
+                        you'll spend your time during the flight. It includes a space gym, cinema, 
+                        and plenty of other activities to keep you entertained. </p>
+                </div>
+                <div class="tech-img-section" id="tech-img-section">
+                </div>
+        </div>
+    </main>
 
 
 
