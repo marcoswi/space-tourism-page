@@ -114,11 +114,14 @@ body {
     }
 
     .destination-img-section {
-        width: 100%;
+        width: 90%;
+        text-align: center;
+        margin: 0;
     }
 
     #destination-img {
         margin: 0;
+        max-width: 100%;
     }
 
     .destination-main-text {
@@ -144,13 +147,19 @@ body {
     }
 
     .destination-data-item {
-        margin: 10px 0;
+        margin: 7% 0;
     }
 
     .data-number {
-        margin: 3% 0;
+        margin: 7% 0;
     }
 
+}
 
 
+@media (max-width: 350px) {
+
+    #destination-title {
+        font-size: 75px;
+    }
 }

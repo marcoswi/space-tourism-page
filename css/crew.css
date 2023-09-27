@@ -98,6 +98,8 @@ body {
 
     .crew-img {
         margin: 0 auto;
+        height: auto;
+        max-width: 90%;
     }
 
     .crew-option {
@@ -118,5 +120,11 @@ body {
         margin: 5% 5%;
     }
 
+}
 
+
+@media (max-width: 320px) {
+    .crew-name {
+        font-size: 40px;
+    }
 }
